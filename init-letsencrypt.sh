@@ -5,7 +5,7 @@ if ! [ -x "$(command -v docker)" ]; then
   exit 1
 fi
 
-domains=(orsen.theeve.io)
+domains=(invet.theeve.io)
 rsa_key_size=4096
 data_path="./data/certbot"
 email="orsen.kucher@gmail.com" # Adding a valid address is strongly recommended
